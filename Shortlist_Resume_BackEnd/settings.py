@@ -31,7 +31,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'cv-shortlister-backend.urls'
+ROOT_URLCONF = 'Shortlist_Resume_BackEnd.urls'
 
 TEMPLATES = [
     {
@@ -49,7 +49,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'cv-shortlister-backend.wsgi.application'
+WSGI_APPLICATION = 'Shortlist_Resume_BackEnd.wsgi.application'
 
 
 AUTH_PASSWORD_VALIDATORS = [
